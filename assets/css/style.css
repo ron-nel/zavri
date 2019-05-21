@@ -255,11 +255,11 @@ footer div ul li {
     margin-bottom: 5%;
   }
 
-  .carousel-caption {
-    font-size: 1.5rem;
-  }
   .carousel-caption h5 {
-    font-size: 3rem;
+    font-size: 2rem;
+  }
+  .carousel-caption p {
+    font-size: 1.3rem;
   }
 }
 
