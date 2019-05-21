@@ -135,13 +135,21 @@ hr {
 
 footer div ul li {
   list-style-type: none;
+  box-sizing: border-box;
 }
 
-footer div ul li a {
+.footer-details {
+  padding: 0;
+}
+.footer-details ul {
+  padding: 0;
+  margin: 0;
+}
+.footer-details ul li a {
   color: rgba(200, 200, 200, 0.8);
   text-decoration: none;
 }
-footer div ul li a:hover {
+.footer-details ul li a:hover {
   color: #fafafa;
 }
 
