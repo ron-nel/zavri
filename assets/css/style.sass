@@ -1,0 +1,179 @@
+body 
+	font-family: 'Raleway', sans-serif
+	font-size: 18px
+	font-weight: 10px
+	overflow-x: hidden
+
+.container-fluid
+	padding-left: 0
+	padding-right: 0
+	overflow-x: hidden
+
+.section 
+	background-position: center center
+	background-size: cover
+	background-repeat: no-repeat
+	min-height: 100vh
+
+#landing
+	background-image: url('../images/architecture-beverage-chair-220749.jpg')
+#home
+	background-image: url('../images/auditorium-chairs-conference-722708.jpg')
+#gallery
+	background-color: rgb(220,220,220)
+#about
+	background-image: url('../images/pexels-photo-276534.jpeg')
+#contact
+	background-image: url('../images/pexels-photo-1866149.jpeg')
+// navbar
+
+.navigation .navbar,
+footer
+	background-color: rgba(20, 20, 20, 0.8)
+	margin: 0
+	padding: 0 3%
+	color: rgba(250,250,250,1)
+footer
+	position: relative
+
+#sliding-home,
+#our-company,
+#contactUs
+	background-color: rgba(20, 20, 20, 0.5)
+	border-radius: 1em
+	color: rgba(250, 250, 250, 1)
+
+hr
+	background-color: rgba(250, 250, 250, 1)
+
+.modal-content
+	background-color: rgba(200, 200, 200, 0.7)
+	margin-top: 30%
+
+.navigation
+	.navbar
+		#company-logo
+			font-family: 'Marcellus', cursive
+			font-size: 1.4rem
+			text-transform: uppercase
+			color: rgba(230,150,0,1)
+		.navbar-toggler
+			background-color: rgba(20,20,20,0.3)
+			border-radius: 10%
+			border: none
+		.navbar-collapse
+			ul
+				li
+					font-size: .9rem
+					padding-right: 0.6rem
+					padding-left: 0.6rem
+					a
+						color: rgba(200,200,200,0.8)
+						font-size: 1.2rem
+						padding-left: 1rem
+					a:hover
+						color: rgba(250,250,250,1)
+					a:active
+						color: rgba(230,150,0,1)
+
+#statement
+	font-family: 'Arial', sans-serif
+	font-size: 5rem
+	color: rgba(230,150,0,0.7)
+	// margin: 50% auto
+
+.carousel-inner
+	height: 50vh
+	margin: 5% auto
+	.image-carousel
+		overflow: hidden
+		width: 100%
+		height: 50vh
+		object-position: cover
+
+#gallery-title
+	margin: 1.5rem auto 3rem
+
+.card
+	height: 10rem
+	overflow: hidden
+	margin-bottom: 5%
+	a
+		img
+			width: 100%
+			height: 100%
+			object-position: cover
+			object-fit: cover
+
+footer div ul li 
+	list-style-type: none
+
+footer
+	div
+		ul
+			li
+				a
+					color: rgba(200,200,200,0.8)
+					text-decoration: none
+				a:hover
+					color: rgba(250,250,250,1)
+
+#social-icon
+	font-size: 3rem
+	.fa-facebook-square
+		color: rgb(66,103,178)
+	.fa-instagram
+		color: rgb(195, 42, 163)
+	.fa-twitter-square
+		color: rgb(56,161,243)
+	.fa-google-plus-square
+		color: rgb(219, 68, 55)
+
+
+@media only screen and (max-width: 600px)
+	#statement-container
+		margin-top: 30%
+	#sliding-home	
+		margin: 30% 5% 10%
+		padding: 10%
+		font-size: 0.8rem
+	#articles
+		margin: 20% auto 0
+	#our-company,
+	#contactUs
+		padding: 5% 10%
+		margin-top: 30%
+		margin-bottom: 5%
+
+@media only screen and (min-width: 401px) and (max-width: 960px)
+	#statement-container
+		margin-top: 20%
+		#statement
+			font-size: 8rem
+	#sliding-home
+		padding: 5%
+		margin-top: 20%
+	#articles
+		margin: 10% auto 0
+	#our-company,
+	#contactUs
+		padding: 5%
+		margin-top: 20%
+		margin-bottom: 5%
+
+@media only screen and (min-width: 961px)
+	#statement-container
+		margin: 5% auto
+		padding: 0
+		#statement
+			font-size: 8rem
+	#sliding-home
+		padding: 3%
+		margin-top: 10%	
+	#articles
+		margin: 8% auto 0
+	#our-company,
+	#contactUs
+		padding: 5%
+		margin-top: 10%
+		margin-bottom: 5%
