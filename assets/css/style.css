@@ -28,7 +28,7 @@ body {
 }
 
 #gallery {
-  background-color: gainsboro;
+  background-color: #c8c8c8;
 }
 
 #about {
@@ -207,6 +207,17 @@ footer div ul li {
   }
   .carousel-caption p {
     font-size: 0.7rem;
+  }
+
+  .card {
+    margin: 3% 5%;
+  }
+
+  #contactUs,
+#our-company {
+    padding: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
   }
 }
 @media only screen and (min-width: 401px) and (max-width: 960px) {
