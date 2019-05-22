@@ -24,7 +24,7 @@ body {
 }
 
 #home {
-  background-image: url("../images/auditorium-chairs-conference-722708.jpg");
+  background-image: url("../images/pexels-photo-945688.jpeg");
 }
 
 #gallery {
@@ -90,7 +90,7 @@ hr {
   padding-left: 1rem;
 }
 .navigation .navbar .navbar-collapse ul li a:hover {
-  color: #fafafa;
+  color: rgba(230, 150, 0, 0.85);
 }
 .navigation .navbar .navbar-collapse ul li a:active {
   color: #e69600;
@@ -98,8 +98,7 @@ hr {
 
 #statement {
   font-family: "Arial", sans-serif;
-  font-size: 5rem;
-  color: rgba(230, 150, 0, 0.7);
+  color: rgba(230, 150, 0, 0.9);
 }
 
 .carousel-caption {
@@ -134,14 +133,35 @@ hr {
   object-fit: cover;
 }
 
-#contact-btn {
+#modal-btn-close span {
+  color: black;
+}
+
+#modal-btn-close:hover span {
   color: orange;
+}
+
+.modal-footer #btn-buy {
+  background-color: #e69600;
+  color: white;
+}
+
+#btn-buy:hover {
+  color: black;
+}
+
+.modal-footer #contact-btn {
+  color: black;
+}
+
+#contact-btn {
+  color: white;
   border: 2px solid rgba(230, 150, 0, 0.7);
 }
 
 #contact-btn:hover {
   color: black;
-  background-color: rgba(230, 150, 0, 0.7);
+  background-color: rgba(230, 150, 0, 0.9);
 }
 
 footer div ul li {
@@ -182,7 +202,10 @@ footer div ul li {
 
 @media only screen and (max-width: 600px) {
   #statement-container {
-    margin-top: 30%;
+    margin-top: 50%;
+  }
+  #statement-container #statement {
+    font-size: 2.2rem;
   }
 
   #sliding-home {
@@ -222,10 +245,10 @@ footer div ul li {
 }
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   #statement-container {
-    margin-top: 20%;
+    margin-top: 40%;
   }
   #statement-container #statement {
-    font-size: 8rem;
+    font-size: 4.5rem;
   }
 
   #sliding-home {
@@ -253,11 +276,11 @@ footer div ul li {
 }
 @media only screen and (min-width: 961px) {
   #statement-container {
-    margin: 5% auto;
+    margin: 16% auto 5%;
     padding: 0;
   }
   #statement-container #statement {
-    font-size: 8rem;
+    font-size: 5rem;
   }
 
   #sliding-home {
